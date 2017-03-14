@@ -7,20 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace MetroUI
 {
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class frmThemGv : MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public frmThemGv()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmThemGv_Load(object sender, EventArgs e)
         {
-            //hello
+
+        }
+
+        private void htmlLabel3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
